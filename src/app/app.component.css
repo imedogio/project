@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.description-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-image{
+    width: 600px;
+    height: 435px;
+    transition: all 1s ease-in-out;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+button:hover{
+    cursor: pointer;
+}
